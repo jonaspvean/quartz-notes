@@ -1,5 +1,4 @@
 .DS_Store
-.gitignore
 prof
 node_modules
 tsconfig.tsbuildinfo
@@ -8,4 +7,3 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
-node_modules
