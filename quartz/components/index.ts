@@ -19,8 +19,11 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
+import NavBar from "./NavBar"
+
 
 export {
+  NavBar,
   ArticleTitle,
   Content,
   TagContent,

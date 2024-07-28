@@ -11,6 +11,7 @@ import { i18n } from "../i18n"
 
 interface RenderComponents {
   head: QuartzComponent
+  navbar: QuartzComponent
   header: QuartzComponent[]
   beforeBody: QuartzComponent[]
   pageBody: QuartzComponent
@@ -186,6 +187,7 @@ export function renderPage(
     head: Head,
     header,
     beforeBody,
+    navbar: NavBar,
     pageBody: Content,
     left,
     right,
@@ -216,6 +218,7 @@ export function renderPage(
       <Head {...componentData} />
       <body data-slug={slug}>
         <div id="quartz-root" class="page">
+        <NavBar {...componentData} />
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">

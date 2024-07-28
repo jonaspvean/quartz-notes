@@ -1,0 +1,139 @@
+$hover-color: #b509ac;
+$text-color: #000000;
+$bg-color: #1c1c1d;
+$divider-color: rgba(0, 0, 0, 0.1);
+
+
+
+.navbar {
+    box-shadow: none;
+    border-bottom: 1px solid #424246;
+    background-color: var(--bg-color);
+}
+
+.navbar .dropdown-menu {
+    background-color: var(--bg-color);
+    border: 1px solid #424246;
+
+    a:not(.active) {
+        color: var(--text-color);
+
+    }
+
+    a:hover {
+    color: var(--hover-color);
+    }
+
+    .dropdown-divider {
+    border-top: 1px solid var(--divider-color) !important;
+    }
+}
+
+.dropdown-item {
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--hover-color);
+    background-color: var(--bg-color);
+  }
+}
+
+.navbar.navbar-light {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .navbar-brand {
+    color: var(--text-color);
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: var(--text-color);
+
+    &:hover {
+      color: var(--hover-color);
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--theme-color);
+
+    &:hover {
+      color: var(--hover-color);
+    }
+  }
+
+  .navbar-brand.social {
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 1.7rem;
+
+    a {
+      i::before {
+        color: var(--text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        i::before {
+          color: var(--theme-color);
+        }
+      }
+    }
+  }
+}
+
+.navbar-toggler {
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: var(--text-color);
+    border-radius: 1px;
+    margin-bottom: 4px;
+    transition: all 0.2s;
+  }
+
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+
+  .middle-bar {
+    opacity: 0;
+  }
+
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+}
+
+.navbar-toggler.collapsed {
+  .top-bar {
+    transform: rotate(0);
+  }
+
+  .middle-bar {
+    opacity: 1;
+  }
+
+  .bottom-bar {
+    transform: rotate(0);
+  }
+}
+
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--hover-color);
+  }
+}
