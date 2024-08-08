@@ -1,55 +1,68 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor } from "./types"
 import style from "./styles/navbar.scss"
 
 
-interface Options {
-    paths: Record<string, string>
-}
 
-interface NameString {
-    firstName: "Jonas"
-    lastName: "Pedersen Vean"
-}
 
-export default ((opts?: Options, name?: NameString) => {
-    const NavBar: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
-    const aboutTitle = site.pages.find((p: any) => p.permalink ==='/')?.title;
-    const paths = opts?.paths ?? []
-    const firstName = name?.firstName;
-    const lastName = name?.lastName;
+export default (() => {
+    const NavBar: QuartzComponent = () => {
     return (
     <header>
-        <link rel="stylesheet" href=".../assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"></link>
-        <nav id="navbar" class="navbar navbar-light navbar-expand-sm sticky-top" role="navigation">
+        <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
             <div class="container">
-                if (page.permalink !== '/') {
-                    <a class = "navbar-brand title font-weight-lighter" href ={`${site.baseurl}/`}>
-                        if (firstName) {
-                            <span class="font-weight-bold">
-                                {firstName}
-                            </span>
-                        }
-                        if (lastName) {
-                            lastName
-                    }
-                    </a>
-                }
-            </div>
+                <a class = "navbar-brand title font-weight-lighter" href ={`/`}>
+                        <span class="font-weight-bold">Jonas </span>
 
+                        Pedersen
+                        Vean
+                        
+                </a>
+            
+
+            <div class="collapse navbar-collapse text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">about
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog/">blog
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+
+                        <a class="nav-link" href="notes/public/">research notes
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/projects/">projects
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/repositories/">repositories
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/cv/">cv
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            </div>
         </nav>
-        { (
-        <progress id="progress" value="0">
+        
+
+        <progress id="progress" value="0" style="top: 57px;" max="588">
             <div class="progress-container"> 
                 <span class="progress-bar"></span>
             </div>
         </progress>
-        )}
+        
     </header>
     )
-}
-
-  return NavBar
+    }
+    NavBar.css = style
+    return NavBar
 }) satisfies QuartzComponentConstructor
-
-    
-

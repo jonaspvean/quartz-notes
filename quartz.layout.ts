@@ -3,19 +3,9 @@ import * as Component from "./quartz/components"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
-  navbar: Component.NavBar({
-    paths: {
-      about: "../",
-      blog: "../blog/",
-      researchNotes: "../notes/public/",
-      projects: "../projects/",
-      repositories: "../repositories/",
-      cv: "../cv/",
-      people: "../people/"
-    }
-  }),
   head: Component.Head(),
   header: [],
+  navbar: Component.NavBar(),
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
