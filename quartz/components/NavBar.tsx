@@ -25,14 +25,15 @@ export default (() => {
                         <a class="nav-link" href="/">about
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog/">blog
-                        </a>
-                    </li>
-                    <li class="nav-item active">
 
+                    <li class="nav-item active">
                         <a class="nav-link" href="notes/public/">research notes
                             <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog/">blog
                         </a>
                     </li>
                     <li class="nav-item ">
