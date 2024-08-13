@@ -54,12 +54,6 @@ export default (() => {
             </div>
         </nav>
         
-
-        <progress id="progress" value="0" style="top: 57px;" max="588">
-            <div class="progress-container"> 
-                <span class="progress-bar"></span>
-            </div>
-        </progress>
         
     </header>
     )
