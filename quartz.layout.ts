@@ -5,7 +5,14 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  navbar: Component.NavBar(),
+  navbar: Component.DesktopOnly(Component.NavBar({links: {
+    about: "/",
+    "research notes": "#",
+    blog: "/blog/",
+    projects: "/projects/",
+    repositories: "/repositories/",
+    cv: "/cv/"
+  }})),
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",

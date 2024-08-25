@@ -1,60 +1,36 @@
-import { QuartzComponent, QuartzComponentConstructor } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/navbar.scss"
 
+interface Options {
+    links: Record<string, string>
+}
 
-
-
-export default (() => {
-    const NavBar: QuartzComponent = () => {
+export default ((opts?: Options) => {
+    const NavBar: QuartzComponent = ({ displayClass } : QuartzComponentProps) => {
+    const links = opts?.links ?? [] 
     return (
     <header>
-        <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
-            <div class="container">
-                <a class = "navbar-brand title font-weight-lighter" href ={`/`}>
+        <nav id="navbar" class={`${ displayClass ?? ""}`+ " navbar navbar-light navbar-expand-sm fixed-top"} role="navigation">
+            <div class="desktop-only container">
+                <a class = "desktop-only navbar-brand title font-weight-lighter" href ={`/`}>
                         <span class="font-weight-bold">Jonas </span>
 
                         Pedersen
                         Vean
-                        
                 </a>
             
-
-            <div class="collapse navbar-collapse text-right" id="navbarNav">
-                <ul class="navbar-nav ml-auto flex-nowrap">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">about
+            <div class={`${ displayClass ?? ""}`+ " collapse navbar-collapse text-right"} id="navbarNav">
+                <ul class={`${ displayClass ?? ""}`+ " navbar-nav ml-auto flex-nowrap"}>
+                    {Object.entries(links).map(([title, href]) => (
+                    <li class={"nav-item" +` ${ (href==="#") ? " active " : ""}`}>
+                        <a class="nav-link" href = {href}> {title}
                         </a>
                     </li>
-
-                    <li class="nav-item active">
-                        <a class="nav-link" href="notes/public/">research notes
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog/">blog
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="/projects/">projects
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="/repositories/">repositories
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="/cv/">cv
-                        </a>
-                    </li>
-                    
+                ))}
                 </ul>
             </div>
             </div>
         </nav>
-        
-        
     </header>
     )
     }
