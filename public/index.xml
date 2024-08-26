@@ -6,23 +6,53 @@
       <description>Last 10 notes on Quartz 4.0</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Machine Learning</title>
+    <link>https://quartz.jzhao.xyz/machine_learning/</link>
+    <guid>https://quartz.jzhao.xyz/machine_learning/</guid>
+    <description></description>
+    <pubDate>Mon, 26 Aug 2024 11:42:41 GMT</pubDate>
+  </item><item>
+    <title>Numerical Analysis</title>
+    <link>https://quartz.jzhao.xyz/numerical_analysis/</link>
+    <guid>https://quartz.jzhao.xyz/numerical_analysis/</guid>
+    <description></description>
+    <pubDate>Sun, 25 Aug 2024 19:28:18 GMT</pubDate>
+  </item><item>
+    <title>Data Analysis</title>
+    <link>https://quartz.jzhao.xyz/probability_and_stochastics/data_analysis/</link>
+    <guid>https://quartz.jzhao.xyz/probability_and_stochastics/data_analysis/</guid>
+    <description></description>
+    <pubDate>Sun, 25 Aug 2024 12:02:51 GMT</pubDate>
+  </item><item>
+    <title>Probability and Stochastics</title>
+    <link>https://quartz.jzhao.xyz/probability_and_stochastics/</link>
+    <guid>https://quartz.jzhao.xyz/probability_and_stochastics/</guid>
+    <description></description>
+    <pubDate>Sun, 25 Aug 2024 12:02:37 GMT</pubDate>
+  </item><item>
+    <title>Correspondence between two notions of symmetries of evolution equations</title>
+    <link>https://quartz.jzhao.xyz/symmetry_analysis/Correspondence-between-two-notions-of-symmetries-of-evolution-equations</link>
+    <guid>https://quartz.jzhao.xyz/symmetry_analysis/Correspondence-between-two-notions-of-symmetries-of-evolution-equations</guid>
+    <description>Consider the evolution equation given by ut​=K where u=(u1,…,uq) are the dependent functions and K=(K1[u],…,Kq[u]) may depend on the partial derivatives uJα​=∂J​uα and x=(x1,…,xp), ...</description>
+    <pubDate>Sun, 25 Aug 2024 09:45:25 GMT</pubDate>
+  </item><item>
+    <title>Partial Differential Equations</title>
+    <link>https://quartz.jzhao.xyz/partial_differential_equations/</link>
+    <guid>https://quartz.jzhao.xyz/partial_differential_equations/</guid>
+    <description></description>
+    <pubDate>Sun, 25 Aug 2024 09:42:17 GMT</pubDate>
+  </item><item>
+    <title>Lie Symmetry Analysis</title>
+    <link>https://quartz.jzhao.xyz/symmetry_analysis/</link>
+    <guid>https://quartz.jzhao.xyz/symmetry_analysis/</guid>
+    <description></description>
+    <pubDate>Sun, 25 Aug 2024 09:39:24 GMT</pubDate>
+  </item><item>
     <title>Research notes</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description>This is my repository for my research notes. Test.</description>
+    <description>Welcome to my page dedicated to archiving my research notes! These notes range from insightful remarks on selected topics or results, to shorter snippets of theorems, definitions, ...</description>
     <pubDate>Fri, 09 Aug 2024 09:03:31 GMT</pubDate>
-  </item><item>
-    <title>Correspondence between two notions of symmetries of evolution equations</title>
-    <link>https://quartz.jzhao.xyz/Correspondence-between-two-notions-of-symmetries-of-evolution-equations</link>
-    <guid>https://quartz.jzhao.xyz/Correspondence-between-two-notions-of-symmetries-of-evolution-equations</guid>
-    <description>Consider the evolution equation given by ut​=K where u=(u1,…,uq) are the dependent functions and K=(K1[u],…,Kq[u]) may depend on the partial derivatives uJα​=∂J​uα and x=(x1,…,xp), ...</description>
-    <pubDate>Mon, 29 Jul 2024 13:48:39 GMT</pubDate>
-  </item><item>
-    <title>Test folder</title>
-    <link>https://quartz.jzhao.xyz/Test_folder/</link>
-    <guid>https://quartz.jzhao.xyz/Test_folder/</guid>
-    <description></description>
-    <pubDate>Mon, 29 Jul 2024 13:48:39 GMT</pubDate>
   </item>
     </channel>
   </rss>
