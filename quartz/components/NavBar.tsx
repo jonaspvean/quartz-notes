@@ -11,8 +11,8 @@ export default ((opts?: Options) => {
     return (
     <header>
         <nav id="navbar" class={`${ displayClass ?? ""}`+ " navbar navbar-light navbar-expand-sm fixed-top"} role="navigation">
-            <div class="desktop-only container">
-                <a class = "desktop-only navbar-brand title font-weight-lighter" href ={`/`}>
+            <div class={`${ displayClass ?? ""}`+ " container"}>
+                <a class ={`${ displayClass ?? ""}`+ " navbar-brand title font-weight-lighter"} href ={`/`}>
                         <span class="font-weight-bold">Jonas </span>
 
                         Pedersen
