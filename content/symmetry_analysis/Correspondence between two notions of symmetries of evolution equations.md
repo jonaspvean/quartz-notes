@@ -1,7 +1,7 @@
 ---
 title: Correspondence between two notions of symmetries of evolution equations
 tags:
-  - symmetries
+  symmetries
 ---
 Consider the evolution equation given by
 $$u_t = K$$

@@ -46,6 +46,10 @@ ul,
   overflow-wrap: anywhere;
   hyphens: auto;
 }
+/* changing the math font size globally: */
+.katex {
+  font-size: 1.1em !important;
+}
 
 .math {
   &.math-display {

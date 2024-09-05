@@ -7,7 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   navbar: Component.DesktopOnly(Component.NavBar({links: {
     about: "/",
-    "research notes": "#",
+    "research notes": "/notes/public/",
     blog: "/blog/",
     projects: "/projects/",
     repositories: "/repositories/",

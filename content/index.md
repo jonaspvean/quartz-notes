@@ -6,7 +6,7 @@ enableToc: false
 
 Welcome to my page dedicated to archiving my research notes! 
 
-These notes range from insightful remarks on selected topics or results, to shorter snippets of theorems, definitions, conventions, and so on that might be of interest when defocused from a specific context. Some of these notes are meant to be a supplement to the [blog](/blog/) – more like auxiliary appendices to the contents of the blog posts. 
+These notes range from insightful remarks on selected topics or results, to shorter snippets of theorems, definitions, conventions, and so on that might be of interest when defocused from a specific context. Some of these notes are meant to be a supplement to the [blog](jonaspvean.github.io/blog/) – more like auxiliary appendices to the contents of the blog posts. 
 
 Of course, some of these notes are written entirely for my own learning. Regardless of the context in which the notes are being written, either for research or learning, I try to be as insightful and astute as possible so as to heighten the overall standard of the notes. The upshot of this might be that some of the notes might be overly technical or advanced, but, *in fairness*, the notes are primarily written for my own usage.
 
@@ -17,7 +17,7 @@ Of course, some of these notes are written entirely for my own learning. Regardl
 <ul>
     <li>
     <h4><a href="/symmetry_analysis/" style="color: var(--darkgray);"> Lie Symmetry Analysis</a></h4>
-    <span> Notes primarily from <em><a href="https://link.springer.com/book/10.1007/978-1-4612-4350-2"> Applications of Lie Groups to Differential Equations </a></em> by Peter J. Olver and related articles on similar topics, related to my research project entitled <a href="/projects/article_symmetry_analysis"> Symmetry Analysis on Nonlocal Equations</a>.</span>
+    <span> Notes primarily from <em><a href="https://link.springer.com/book/10.1007/978-1-4612-4350-2"> Applications of Lie Groups to Differential Equations </a></em> by Peter J. Olver and related articles on similar topics, related to my research project entitled <a href="jonaspvean.github.io/projects/article_symmetry_analysis"> Symmetry Analysis on Nonlocal Equations</a>.</span>
     </li>
     <li>
     <h4><a href="/machine_learning/" style="color: var(--darkgray);"> Machine Learning</a></h4>

@@ -6,6 +6,30 @@
       <description>Last 10 notes on Quartz 4.0</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Lie-theoretic preamble</title>
+    <link>https://quartz.jzhao.xyz/symmetry_analysis/Definitions/Manifold-theoretic-preamble</link>
+    <guid>https://quartz.jzhao.xyz/symmetry_analysis/Definitions/Manifold-theoretic-preamble</guid>
+    <description>In order to have a good grasp on research level symmetry analysis à la Lie, one would imagine that a solid level of Lie theory ought to be a prerequisite ...</description>
+    <pubDate>Fri, 30 Aug 2024 07:27:37 GMT</pubDate>
+  </item><item>
+    <title>Various symmetry definitions</title>
+    <link>https://quartz.jzhao.xyz/symmetry_analysis/Definitions/Various-symmetry-definitions</link>
+    <guid>https://quartz.jzhao.xyz/symmetry_analysis/Definitions/Various-symmetry-definitions</guid>
+    <description>In Olver’s book 1 one encounters a fair few different notions of symmetries of equations. In this note we are going to overview a few of them briefly, and finally compare them against each other.</description>
+    <pubDate>Fri, 30 Aug 2024 06:38:09 GMT</pubDate>
+  </item><item>
+    <title>Definitions</title>
+    <link>https://quartz.jzhao.xyz/probability_and_stochastics/Definitions/</link>
+    <guid>https://quartz.jzhao.xyz/probability_and_stochastics/Definitions/</guid>
+    <description></description>
+    <pubDate>Fri, 30 Aug 2024 06:36:07 GMT</pubDate>
+  </item><item>
+    <title>Definitions</title>
+    <link>https://quartz.jzhao.xyz/symmetry_analysis/Definitions/</link>
+    <guid>https://quartz.jzhao.xyz/symmetry_analysis/Definitions/</guid>
+    <description></description>
+    <pubDate>Fri, 30 Aug 2024 06:35:04 GMT</pubDate>
+  </item><item>
     <title>Misc.</title>
     <link>https://quartz.jzhao.xyz/programming/Misc./</link>
     <guid>https://quartz.jzhao.xyz/programming/Misc./</guid>
@@ -41,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/probability_and_stochastics/</guid>
     <description></description>
     <pubDate>Sun, 25 Aug 2024 12:02:37 GMT</pubDate>
-  </item><item>
-    <title>Correspondence between two notions of symmetries of evolution equations</title>
-    <link>https://quartz.jzhao.xyz/symmetry_analysis/Correspondence-between-two-notions-of-symmetries-of-evolution-equations</link>
-    <guid>https://quartz.jzhao.xyz/symmetry_analysis/Correspondence-between-two-notions-of-symmetries-of-evolution-equations</guid>
-    <description>Consider the evolution equation given by ut​=K where u=(u1,…,uq) are the dependent functions and K=(K1[u],…,Kq[u]) may depend on the partial derivatives uJα​=∂J​uα and x=(x1,…,xp), ...</description>
-    <pubDate>Sun, 25 Aug 2024 09:45:25 GMT</pubDate>
-  </item><item>
-    <title>Partial Differential Equations</title>
-    <link>https://quartz.jzhao.xyz/partial_differential_equations/</link>
-    <guid>https://quartz.jzhao.xyz/partial_differential_equations/</guid>
-    <description></description>
-    <pubDate>Sun, 25 Aug 2024 09:42:17 GMT</pubDate>
-  </item><item>
-    <title>Lie Symmetry Analysis</title>
-    <link>https://quartz.jzhao.xyz/symmetry_analysis/</link>
-    <guid>https://quartz.jzhao.xyz/symmetry_analysis/</guid>
-    <description></description>
-    <pubDate>Sun, 25 Aug 2024 09:39:24 GMT</pubDate>
-  </item><item>
-    <title>Research notes</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>Welcome to my page dedicated to archiving my research notes! These notes range from insightful remarks on selected topics or results, to shorter snippets of theorems, definitions, ...</description>
-    <pubDate>Fri, 09 Aug 2024 09:03:31 GMT</pubDate>
   </item>
     </channel>
   </rss>

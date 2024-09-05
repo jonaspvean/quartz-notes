@@ -1,3 +1,14 @@
+# Addendum for my website
+
+These are my notes for my al-folio-themed GitHub Pages site, which can be found [here](jonaspvean.github.io/notes/public). This is built with a modified Quartz 4.0, where 
+- the navbar from the al-folio theme is included
+- custom colour schemes are included and integrated with light- and darkmode
+- and the repo is used as a main branch for a git submodule that exists in both the master and gh-pages branches of my [website](https://github.com/jonaspvean/jonaspvean.github.io)
+
+TODO:
+- add the progress bar scroll logic from the al-folio site
+- resolve the issue of what happens to the page elements that break upon loading al-folio pages after having loaded the research notes page
+
 # Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
