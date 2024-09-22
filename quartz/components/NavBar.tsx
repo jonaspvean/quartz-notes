@@ -1,5 +1,7 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/navbar.scss"
+//@ts-ignore
+import alfolioReload from "./scripts/alfolioReload.inline"
 
 interface Options {
     links: Record<string, string>

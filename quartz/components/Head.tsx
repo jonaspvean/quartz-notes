@@ -3,6 +3,8 @@ import { FullSlug, joinSegments, pathToRoot } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+//@ts-ignore
+import alfolioReload from "./scripts/alfolioReload.inline"
 
 export default (() => {
   const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
@@ -47,6 +49,6 @@ export default (() => {
       </head>
     )
   }
-
+  Head.beforeDOMLoaded = alfolioReload
   return Head
 }) satisfies QuartzComponentConstructor
