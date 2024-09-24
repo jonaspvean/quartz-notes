@@ -5,7 +5,7 @@ export interface ColorScheme {
   lightgrey: string
   darkgrey: string
   grey: string
-  purple: string
+  blue: string
   cyan: string
   
 
@@ -59,8 +59,8 @@ ${stylesheet.join("\n\n")}
   --global-bg-color: ${theme.colors.lightMode.white};
   --global-text-color: ${theme.colors.lightMode.black};
   --global-text-color-light: ${theme.colors.lightMode.grey};
-  --global-theme-color: ${theme.colors.lightMode.purple};
-  --global-hover-color: ${theme.colors.lightMode.purple};
+  --global-theme-color: ${theme.colors.lightMode.blue};
+  --global-hover-color: ${theme.colors.lightMode.blue};
   --global-hover-text-color: ${theme.colors.lightMode.white};
   --global-footer-link-color: ${theme.colors.lightMode.white};
   --global-distill-app-color: ${theme.colors.lightMode.grey};

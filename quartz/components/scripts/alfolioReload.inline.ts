@@ -33,5 +33,3 @@ document.addEventListener("nav", () => {
     // once we trigger a navigation, we check if an instant reload is needed
     instantPageRedirect()
 })
-
-

@@ -1,7 +1,5 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/navbar.scss"
-//@ts-ignore
-import alfolioReload from "./scripts/alfolioReload.inline"
 
 interface Options {
     links: Record<string, string>
@@ -24,7 +22,7 @@ export default ((opts?: Options) => {
             <div class={`${ displayClass ?? ""}`+ " collapse navbar-collapse text-right"} id="navbarNav">
                 <ul class={`${ displayClass ?? ""}`+ " navbar-nav ml-auto flex-nowrap"}>
                     {Object.entries(links).map(([title, href]) => (
-                    <li class={"nav-item" +` ${ (href==="#") ? " active " : ""}`}>
+                    <li class={"nav-item" +` ${ (title==="research notes") ? " active " : ""}`}>
                         <a class="nav-link" href = {href}> {title}
                         </a>
                     </li>
@@ -36,6 +34,6 @@ export default ((opts?: Options) => {
     </header>
     )
     }
-    NavBar.css = style
+    // would use NavBar.css = style here, but it seems to not load properly
     return NavBar
 }) satisfies QuartzComponentConstructor
